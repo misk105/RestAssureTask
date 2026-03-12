@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T13:27:42Z" name="Default suite" finished-at="2026-03-11T13:27:51Z" duration-ms="8368">
+  <suite started-at="2026-03-12T10:17:29Z" name="Default suite" finished-at="2026-03-12T10:17:34Z" duration-ms="4508">
     <groups>
     </groups>
-    <test started-at="2026-03-11T13:27:42Z" name="Default test" finished-at="2026-03-11T13:27:51Z" duration-ms="8368">
+    <test started-at="2026-03-12T10:17:29Z" name="Default test" finished-at="2026-03-12T10:17:34Z" duration-ms="4508">
+      <class name="example.Task2">
+        <test-method signature="testSearchProducts()[pri:0, instance:example.Task2@68c9133c]" started-at="2026-03-12T12:17:29Z" name="testSearchProducts" finished-at="2026-03-12T12:17:32Z" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProducts -->
+      </class> <!-- example.Task2 -->
       <class name="example.Task1">
-        <test-method signature="testTodosAPI()[pri:0, instance:example.Task1@d737b89]" started-at="2026-03-11T15:27:42Z" name="testTodosAPI" finished-at="2026-03-11T15:27:51Z" duration-ms="8359" status="PASS">
+        <test-method signature="testTodosAPI()[pri:0, instance:example.Task1@35dab4eb]" started-at="2026-03-12T12:17:32Z" name="testTodosAPI" finished-at="2026-03-12T12:17:34Z" duration-ms="1477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTodosAPI -->
